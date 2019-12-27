@@ -45,7 +45,7 @@ void FirebaseHTTPClient::setRootCA(const char *rootCA)
   {
 #ifndef USING_AXTLS
 
-    _client->setBufferSizes(512, 512);
+    _client->setBufferSizes(2048, 512);
 
     if (rootCA)
       _client->setTrustAnchors(new X509List(rootCA));

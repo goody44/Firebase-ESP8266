@@ -54,7 +54,7 @@
 #include "FirebaseJson.h"
 
 #define FIEBASE_PORT 443
-#define FIREBASE_RESPONSE_SIZE 400
+#define FIREBASE_RESPONSE_SIZE 2048
 #define KEEP_ALIVE_TIMEOUT 30000
 #define SD_CS_PIN 15
 
